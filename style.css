@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    background-color: #181818;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #282c35;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    margin: 0 auto;
+    max-width: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #282c35;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #1f2127;
+    border-bottom: 1px solid #1a1c20;
+    text-align: center;
+}
+
+/* Input Styles */
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 36px;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    text-align: right;
+    border: none;
+    background-color: #282c35;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s;
+}
+
+input:focus {
+    background-color: #1f2127;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #0077b6;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #005a8d;
+}
+
+/* Error Message Styles */
+.error-message {
+    text-align: center;
+    color: #ff5555;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c35;
+    color: #ffffff;
+    font-size: 12px;
+}
